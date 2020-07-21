@@ -1,0 +1,25 @@
+{
+  "name": "tsdiscordbreadbot",
+  "version": "1.0.0",
+  "description": "bread bot",
+  "main": "",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "postinstall": "npm run build-ts",
+    "build-ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeeCoding/TSBreadBot.git"
+  },
+  "author": "Gabes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabeeCoding/TSBreadBot/issues"
+  },
+  "homepage": "https://github.com/GabeeCoding/TSBreadBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
