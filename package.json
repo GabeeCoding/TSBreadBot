@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/GabeeCoding/TSBreadBot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "@types/node": "^14.0.24",
+    "discord.js": "^12.2.0",
+    "typescript": "^3.9.7"
   }
 }
